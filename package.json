@@ -1,0 +1,22 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "A sample mean authentication application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Gaurav Gireesh @ Seaver Science Library, University of Southern California",
+  "license": "ISC"
+}
